@@ -730,3 +730,25 @@ body {
         height: 200px;
     }
 }
+.resume-btn {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resume-btn:hover {
+    color: #666;
+    transform: translateY(-2px);
+}
+
+/* Add to your media queries */
+@media screen and (max-width: 480px) {
+    .resume-btn {
+        font-size: 16px;
+    }
+}
